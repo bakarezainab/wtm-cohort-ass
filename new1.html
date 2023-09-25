@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+                      
+    <div class="d-flex flex-column mb-3">
+        <div class="p-2 border border-primary mt-0">
+
+                          <!-- navbar -->
+            <nav class="navbar navbar-expand-lg bg-info mt-0 position-fixed" style="height: 70px; width: 1600px;">
+                <div class="container-fluid p-5">
+                  <a class="navbar-brand text-danger ms-5" href="#">Shoptacle</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Clothings
+                        </a>
+                        <ul class="dropdown-menu z-3">
+                          <li><a class="dropdown-item" href="#">Men Wears</a></li>
+                          <li><a class="dropdown-item" href="#">Cloth</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Shoes</a></li>
+                        </ul>
+                      </li>
+                      <!-- <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li> -->
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+                </nav>
+        </div>
+
+
+        <!-- <div class="p-2 border border-primary">
+            <img src="./images/shop-image.jpg">
+            <div class="text-center m-auto mt-5 text-white" style="width: 400px; height: 250px;">
+                <h1 class="text-wrap">YOUR ONE-STOP FASHION HOME</h1>
+                <p>we stand for luxury, efficiency, and honesty</p>
+                <input class="btn btn-danger mt-4" type="submit" value="SHOP NOW">
+            </div>
+                
+            </div>
+
+        </div> -->
+
+        <div class="position-relative z-n1">
+            <div class="position-absolute top-50 start-50 translate-middle z-3 opacity-100 text-white" style="width: 556px; margin-top: 75px;">
+                <h1 class="text-center text-wrap" style="font-size: 64px; font-weight: 600; line-height: 77.45px;">YOUR ONE-STOP FASHION HOME</h1>
+                <p class="fw-bold text-center">we stand for luxury, efficiency, and honesty</p>
+                <button type="submit" class="btn btn-danger btn-lg" style="margin-top: 70px; margin-left: 200px;">SHOP NOW</button>
+                
+            </div>
+            <!-- <img class="opacity-50" src="./images/shop-image.jpg" width="1600px" height="576px"> -->
+            <div class="bg-black" style="width: 1600px; height: 576px;"><img class="opacity-50" src="./images/shop-image.jpg" width="1600px" height="576px"></div>
+        </div>
+
+        <!-- Collections -->
+        
+        <div class="p-2 border border-primary">
+            <div>
+                <h1 class="text-center m-5">Collections</h1>
+            </div>
+        </div>
+
+        <!-- Launches, Men and Women -->
+
+        <div class="p-2 border border-primary">
+            <div class="container text-center">
+                <div class="row row-cols-3 g-1">
+                  <div class="col">
+                    <div class="p-3"><img src="./images/show1.png"></div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3"><img src="./images/men.png"></div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3"><img src="./images/women.png"></div>
+                  </div>
+                  <div class="col gy-0">
+                    <div class="p-3">Launches</div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3">Men</div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3">Women</div>
+                  </div>
+                  <div class="col gy-0">
+                    <div class="p-3"><button type="button" class="btn btn-danger btn-lg">SHOP NOW</button></div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3"><button type="button" class="btn btn-danger btn-lg">SHOP NOW</button></div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3"><button type="button" class="btn btn-danger btn-lg">SHOP NOW</button></div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <!-- New Arrivals -->
+
+        <div class="p-2 border border-primary">
+             <!-- <div>
+                    <h1 class="text-center m-1">New Arrivals</h1>
+            </div> -->
+
+            <div class="container text-center bg-info" >
+              <div>
+                <h1 class="text-center m-1">New Arrivals</h1>
+        </div>
+                <div class="row row-cols-2 g-1">
+                  <div class="col">
+                    <div class="p-3"><img src="./images/Rectangle 10.png"></div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3"><img src="./images/Rectangle 11.png"></div>
+                  </div>
+                 
+                  <div class="col gy-0">
+                    <div class="p-3">New Men</div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3">New Women</div>
+                  </div>
+                  
+                  <!-- <div class="col gy-0">
+                    <div class="p-3"><button type="button" class="btn btn-danger btn-lg">SHOP NOW</button></div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3"><button type="button" class="btn btn-danger btn-lg">SHOP NOW</button></div>
+                  </div> -->                  
+                </div>
+              </div>            
+             </div>
+
+             <!-- Top Selling -->
+
+             <div class="p-2 border border-primary">             
+
+            <div class="container text-center" >
+              <div>
+                <h1 class="text-center m-1">Top Selling</h1>
+        </div>
+                <div class="row row-cols-2 g-1">
+                  <div class="col">
+                    <div class="p-3"><img src="./images/Rectangle 42.png"></div>
+                  </div>
+                  <div class="col col-3 gy-5">
+                    <h1>Adilette sneakers</h1>
+                    <p>Shoptacle sneak are a tangible product because they can be seen, touched and worn. They can be classified as a consumer product because they are bought to satisfy an individual’s personal needs. </p>
+                    <button type="button" class="btn btn-danger btn-lg">SHOP NOW</button></div>
+
+                    <div class="p-3"></div>
+                  </div>
+                 
+                  <!-- <div class="col gy-0">
+                    <div class="p-3">New Men</div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3">New Women</div>
+                  </div> -->              
+                  
+                </div>
+              </div>            
+             </div>
+             </div>
+
+                                                <!-- About Us -->
+             <div class="p-2 border border-primary">
+
+              <div class="container px-4 text-center">
+                <div class="row gx-5">
+                  <div class="col col-3 gy-5">
+                    <h1>About Us</h1>
+                    <p> Shoptacle is a luxury online store that sells the finest women apparel, footwear, and accessories. We also have a wide variety of other brands such as Chanel, Prada, Louis Vuitton and many more. Our high quality merchandise is available at factory outlet, wholesale price at discount prices</p>
+                    <button type="button" class="btn btn-danger btn-lg">Contact Us</button>
+                  </div>
+                  <div class="col">
+                    <div class="p-3"><img src="./images/International Mobile.png"></div>
+                  </div>
+                </div>
+              </div>     
+
+             </div>
+
+                                    <!-- Testimony -->
+              <div class="p-2 border border-primary">
+
+                <div id="carouselExample" class="carousel slide">
+                  <div class="carousel-inner">
+
+
+
+                    <div class="carousel-item active">
+
+                      <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="1280" height="390" viewBox="0 0 1280 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="1280" height="390" fill="#FF0000" fill-opacity="0.78"/><text x="50%" y="50%" fill="#555" dy=".3em">Testimony
+                        
+                      </text>
+                    </svg>
+<rect width="1280" height="390" fill="#FF0000" fill-opacity="0.78"/>
+</svg>
+                                            
+                    </div>
+
+
+
+
+                    <div class="carousel-item">
+                      <img src="./images/Rectangle 44.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/Rectangle 44.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+     
+              </div>
+                                                <!-- SUPERIOR QUALITY -->
+              <div class="p-2 border border-primary">
+
+                <div class="container text-center">
+                  <div class="row row-cols-3 g-2">
+                    <div class="col-4">
+                      <img src="" alt="img">
+                    </div>
+                    <div class="col-4">
+                      <img src="" alt="img">
+                    </div>
+                    <div class="col-4">
+                      <img src="" alt="img">
+                    </div>
+                    <div class="col-4">
+                      <div class="p-3">SUPERIOR QUALITY</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="p-3">Express Shipping</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="p-3">100% Secured</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="p-3">All Our Luxury designed pieces are made with unique custom fabrics with quality in every details</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="p-3">Free Shipping available. Stress free home door delivery</div>
+                    </div>
+                    <div class="col-4">
+                      <div class="p-3">100% guaranteed on safe goods delivery on all orders</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+                                        <!-- Stay In Touch -->
+
+     <div class="p-2 border border-primary">
+
+              <div class="container px-4 text-center">
+                <div class="row gx-5">
+                  <div class="col col-3 gy-5">
+                    <h1>About Us</h1>
+                    <p> Shoptacle is a luxury online store that sells the finest women apparel, footwear, and accessories. We also have a wide variety of other brands such as Chanel, Prada, Louis Vuitton and many more. Our high quality merchandise is available at factory outlet, wholesale price at discount prices</p>
+                    <button type="button" class="btn btn-danger btn-lg">Contact Us</button>
+                  </div>
+                  <div class="col">
+                    <div class="p-3"><img src="./images/man 61.png"></div>
+                  </div>
+                </div>
+              </div>     
+
+             </div>
+
+
+      
+
+
+
+
+
+
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+        
+        
+
+        
+       
+        
+        <div class="p-2 border border-primary">Flex item 2</div>
+        <div class="p-2 border border-primary">Flex item 3</div>
+      </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
